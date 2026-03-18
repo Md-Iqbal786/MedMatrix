@@ -1,2 +1,492 @@
-[00:00:00.943] Server  LOG     ✓ Ready in 723ms
-[00:00:05.720] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.994] Server  LOG     ✓ Ready in 749ms
+[00:00:04.797] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.941] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.313] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:34.968] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:19
+Parsing ecmascript source code failed
+   7 |       <header>
+   8 |         <div>
+>  9 |           <span >{</span>
+     |                   ^
+  10 |         </div>
+  11 |       </header>
+  12 |       <main></main>
+
+Expression expected
+[00:00:34.968] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:20
+Parsing ecmascript source code failed
+   7 |       <header>
+   8 |         <div>
+>  9 |           <span >{</span>
+     |                    ^^^^^^
+  10 |         </div>
+  11 |       </header>
+  12 |       <main></main>
+
+Unterminated regexp literal
+[00:00:34.969] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:19
+Parsing ecmascript source code failed
+   7 |       <header>
+   8 |         <div>
+>  9 |           <span >{</span>
+     |                   ^
+  10 |         </div>
+  11 |       </header>
+  12 |       <main></main>
+
+Expression expected
+[00:00:34.969] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:20
+Parsing ecmascript source code failed
+   7 |       <header>
+   8 |         <div>
+>  9 |           <span >{</span>
+     |                    ^^^^^^
+  10 |         </div>
+  11 |       </header>
+  12 |       <main></main>
+
+Unterminated regexp literal
+[00:00:38.208] Server  ERROR   ⨯ ReferenceError: me is not defined
+[00:00:38.218] Server  ERROR   ⨯ ReferenceError: me is not defined
+[00:00:38.998] Browser ERROR   uncaughtError: ReferenceError: me is not defined
+[00:00:39.000] Browser ERROR   uncaughtError: ReferenceError: me is not defined
+[00:00:44.069] Server  ERROR   ⨯ ReferenceError: Medical is not defined
+[00:00:44.115] Server  ERROR   ⨯ ReferenceError: Medical is not defined
+[00:00:44.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:44.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:44.970] Browser ERROR   uncaughtError: ReferenceError: Medical is not defined
+[00:00:44.970] Browser ERROR   uncaughtError: ReferenceError: Medical is not defined
+[00:00:49.344] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:49.477] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:49.593] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:49.610] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:49.970] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:49.971] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:53.546] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:53.703] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:53.810] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:53.819] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:53.969] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:53.969] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:57.434] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:57.562] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:57.657] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:57.676] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:57.969] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:57.969] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:58.914] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:59.049] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:59.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:59.174] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:59.970] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:00:59.970] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
+[00:01:53.503] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:53.505] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:53.790] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:53.805] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:05.104] Server  ERROR   ⨯ ReferenceError: MediMatrix is not defined
+[00:06:05.115] Server  ERROR   ⨯ ReferenceError: MediMatrix is not defined
+[00:06:05.972] Browser ERROR   uncaughtError: ReferenceError: MediMatrix is not defined
+[00:06:05.974] Browser ERROR   uncaughtError: ReferenceError: MediMatrix is not defined
+[00:06:06.357] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:06.359] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:16.968] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true lc lc true lc
+[00:06:16.968] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true lc lc true lc
+[00:06:19.969] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cklas cklas true cklas
+[00:06:19.969] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cklas cklas true cklas
+[00:06:24.970] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:13
+Parsing ecmascript source code failed
+   7 |         <div>
+   8 |           <div class {
+>  9 |             constructor(parameters) {
+     |             ^^^^^^^^^^^
+  10 |               
+  11 |             }
+  12 |           }>
+
+Expected '</', got 'ident'
+[00:06:24.971] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:13
+Parsing ecmascript source code failed
+   7 |         <div>
+   8 |           <div class {
+>  9 |             constructor(parameters) {
+     |             ^^^^^^^^^^^
+  10 |               
+  11 |             }
+  12 |           }>
+
+Expected '</', got 'ident'
+[00:06:26.969] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:13
+Parsing ecmascript source code failed
+   7 |         <div>
+   8 |           <div className="" {
+>  9 |             constructor(parameters) {
+     |             ^^^^^^^^^^^
+  10 |               
+  11 |             }
+  12 |           }>
+
+Expected '</', got 'ident'
+[00:06:26.970] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:13
+Parsing ecmascript source code failed
+   7 |         <div>
+   8 |           <div className="" {
+>  9 |             constructor(parameters) {
+     |             ^^^^^^^^^^^
+  10 |               
+  11 |             }
+  12 |           }>
+
+Expected '</', got 'ident'
+[00:06:30.970] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:06:30.970] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:07:52.387] Server  LOG     ✓ Compiled in 95ms
+[09:06:29.494] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[09:09:28.552] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[09:09:28.552] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[09:09:49.301] Server  ERROR   Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?
+[09:09:49.301] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[09:09:49.402] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[09:09:49.510] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[09:09:49.510] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[09:24:53.550] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true border border true border
+[09:32:57.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:21:17
+Parsing ecmascript source code failed
+  19 |             >
+  20 |               Features
+> 21 |             </a>
+     |                 ^
+> 22 |             <a
+     | ^^^^^^^^^^^^^
+  23 |               className="text-slate-600  font-medium transition-colors"
+  24 |               href="#how-it-works"
+  25 |             >
+
+Expected '</', got 'jsx text'
+[09:33:01.550] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:22:17
+Parsing ecmascript source code failed
+  20 |             >
+  21 |               Features
+> 22 |             </a>
+     |                 ^
+> 23 |             <a
+     | ^^^^^^^^^^^^^
+  24 |               className="text-slate-600  font-medium transition-colors"
+  25 |               href="#how-it-works"
+  26 |             >
+
+Expected '</', got 'jsx text'
+[09:33:12.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:22:13
+Parsing ecmascript source code failed
+  20 |             >
+  21 |               Features
+> 22 |             >
+     |             ^
+  23 |             <a
+  24 |               className="text-slate-600  font-medium transition-colors"
+  25 |               href="#how-it-works"
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[09:33:14.548] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:22:21
+Parsing ecmascript source code failed
+  20 |             >
+  21 |               Features
+> 22 |             /</Link>>
+     |                     ^
+  23 |             <a
+  24 |               className="text-slate-600  font-medium transition-colors"
+  25 |               href="#how-it-works"
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[09:33:17.548] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:22:20
+Parsing ecmascript source code failed
+  20 |             >
+  21 |               Features
+> 22 |             </Link>>
+     |                    ^
+  23 |             <a
+  24 |               className="text-slate-600  font-medium transition-colors"
+  25 |               href="#how-it-works"
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[09:33:19.699] Server  LOG     ✓ Compiled in 254ms
+[09:33:23.301] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[09:34:29.550] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:28:17
+Parsing ecmascript source code failed
+  26 |             >
+  27 |               How it Works
+> 28 |             </a>
+     |                 ^
+> 29 |             <a
+     | ^^^^^^^^^^^^^
+  30 |               className="text-slate-600  font-medium transition-colors"
+  31 |               href="#about"
+  32 |             >
+
+Expected '</', got 'jsx text'
+[09:34:31.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:28:17
+Parsing ecmascript source code failed
+  26 |             >
+  27 |               How it Works
+> 28 |             </a>
+     |                 ^
+> 29 |             <a
+     | ^^^^^^^^^^^^^
+  30 |               className="text-slate-600  font-medium transition-colors"
+  31 |               href="#about"
+  32 |             >
+
+Expected '</', got 'jsx text'
+[09:34:40.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:34:17
+Parsing ecmascript source code failed
+  32 |             >
+  33 |               About
+> 34 |             </a>
+     |                 ^
+> 35 |           </div>
+     | ^^^^^^^^^^^
+  36 |
+  37 |           <div className="flex items-center gap-4">
+  38 |             <button
+
+Expected '</', got 'jsx text'
+[09:38:37.149] Server  LOG     ✓ Compiled in 22ms
+[09:39:05.307] Server  LOG     ✓ Compiled in 35ms
+[09:44:46.549] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true gre gre true gre
+[09:56:43.346] Server  LOG     ✓ Compiled in 24ms
+[09:58:44.550] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[10:05:01.475] Server  LOG     ✓ Compiled in 24ms
+[10:08:03.550] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:14:20
+Parsing ecmascript source code failed
+  12 |             <img src="/logo.jpg" alt="logo"  className="h-15 bg-cover mr-2 rounded-full pr-0 mr-0"/>
+  13 |               MediMatrix
+> 14 |             </span>
+     |                    ^
+> 15 |           </div>
+     | ^^^^^^^^^^^
+  16 |
+  17 |           <div className="hidden md:flex items-center gap-8 text-xl font-bold">
+  18 |             <Link
+
+Expected '</', got 'jsx text'
+[10:11:34.904] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:11:56.551] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:5:1
+Parsing ecmascript source code failed
+  3 | import
+  4 |
+> 5 | export default function Home() {
+    | ^^^^^^
+  6 |   return (
+  7 |     <div className="bg-[#F0FDF4] h-screen w-full ">
+  8 |       
+
+Expected 'from', got 'export'
+[10:11:57.548] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:5:1
+Parsing ecmascript source code failed
+  3 | import 
+  4 |
+> 5 | export default function Home() {
+    | ^^^^^^
+  6 |   return (
+  7 |     <div className="bg-[#F0FDF4] h-screen w-full ">
+  8 |       
+
+Expected 'from', got 'export'
+[10:12:09.551] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:13
+Parsing ecmascript source code failed
+   7 |     <div className="bg-[#F0FDF4] h-screen w-full ">
+   8 |       <na
+>  9 |       <main></main>
+     |             ^
+  10 |     </div>
+  11 |   );
+  12 | }
+
+Expression expected
+[10:12:09.552] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:14
+Parsing ecmascript source code failed
+   7 |     <div className="bg-[#F0FDF4] h-screen w-full ">
+   8 |       <na
+>  9 |       <main></main>
+     |              ^^^^^^
+  10 |     </div>
+  11 |   );
+  12 | }
+
+Unterminated regexp literal
+[10:12:14.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:13
+Parsing ecmascript source code failed
+   7 |     <div className="bg-[#F0FDF4] h-screen w-full ">
+   8 |       <Navbar
+>  9 |       <main></main>
+     |             ^
+  10 |     </div>
+  11 |   );
+  12 | }
+
+Expression expected
+[10:12:14.550] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:14
+Parsing ecmascript source code failed
+   7 |     <div className="bg-[#F0FDF4] h-screen w-full ">
+   8 |       <Navbar
+>  9 |       <main></main>
+     |              ^^^^^^
+  10 |     </div>
+  11 |   );
+  12 | }
+
+Unterminated regexp literal
+[10:12:15.232] Server  LOG     ✓ Compiled in 165ms
+[10:12:19.335] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:14:02.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[10:14:02.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[10:14:02.550] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[10:16:51.198] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[10:16:51.300] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:16:51.300] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[10:16:51.300] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[10:16:51.300] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[10:16:53.905] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:16:53.905] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[10:16:53.905] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[10:16:53.905] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[10:17:26.100] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:17:26.100] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[10:17:26.100] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[10:17:26.100] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[10:17:28.165] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:17:28.165] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[10:17:28.165] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[10:17:28.165] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[10:17:29.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:17:30.036] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[10:17:30.036] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[10:17:30.036] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[10:17:56.388] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:18:37.589] Server  ERROR   ⨯ ReferenceError: MediMatrix is not defined
+[10:18:38.548] Browser ERROR   uncaughtError: ReferenceError: MediMatrix is not defined
+[10:18:38.717] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:20:43.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:12:5
+Parsing ecmascript source code failed
+  10 |       <main></main>
+  11 |       <footer
+> 12 |     </div>
+     |     ^
+  13 |   );
+  14 | }
+  15 |
+
+Expression expected
+[10:20:43.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:12:6
+Parsing ecmascript source code failed
+  10 |       <main></main>
+  11 |       <footer
+> 12 |     </div>
+     |      ^^^^^
+  13 |   );
+  14 | }
+  15 |
+
+Unterminated regexp literal
+[10:20:44.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:12:5
+Parsing ecmascript source code failed
+  10 |       <main></main>
+  11 |       <footer
+> 12 |     </div>
+     |     ^
+  13 |   );
+  14 | }
+  15 |
+
+Expression expected
+[10:20:44.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:12:6
+Parsing ecmascript source code failed
+  10 |       <main></main>
+  11 |       <footer
+> 12 |     </div>
+     |      ^^^^^
+  13 |   );
+  14 | }
+  15 |
+
+Unterminated regexp literal
+[10:20:52.551] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:7:1
+Parsing ecmascript source code failed
+   5 | import 
+   6 |
+>  7 | export default function Home() {
+     | ^^^^^^
+   8 |   return (
+   9 |     <div className="bg-[#F0FDF4] h-screen w-full ">
+  10 |       <Navbar></Navbar>
+
+Expected 'from', got 'export'
+[10:22:05.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[10:22:05.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[10:22:05.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[10:22:05.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[10:22:05.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[10:22:50.455] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+[10:22:50.455] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+[10:22:50.616] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:22:50.721] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[10:22:50.721] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[10:22:50.721] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[10:22:50.721] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[10:22:50.721] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[10:23:29.558] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:23:29.666] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[10:23:29.666] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[10:23:29.666] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[10:23:29.666] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[10:23:29.666] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[10:25:03.553] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[10:25:05.548] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:32:30
+Parsing ecmascript source code failed
+  30 |                 </button>
+  31 |                 <button className="px-8 py-4 bg-white text-slate-700 border border-slate-200 text-lg font-bold rounded-xl hover:bg-slate-50 transition-all flex items-center justify-center gap-2">
+> 32 |                   <span class\></span>
+     |                              ^
+  33 |                   Watch Demo
+  34 |                 </button>
+  35 |               </div>
+
+Expected unicode escape
+[10:25:05.548] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:32:32
+Parsing ecmascript source code failed
+  30 |                 </button>
+  31 |                 <button className="px-8 py-4 bg-white text-slate-700 border border-slate-200 text-lg font-bold rounded-xl hover:bg-slate-50 transition-all flex items-center justify-center gap-2">
+> 32 |                   <span class\></span>
+     |                                ^
+  33 |                   Watch Demo
+  34 |                 </button>
+  35 |               </div>
+
+Expression expected
+[10:25:05.548] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:32:33
+Parsing ecmascript source code failed
+  30 |                 </button>
+  31 |                 <button className="px-8 py-4 bg-white text-slate-700 border border-slate-200 text-lg font-bold rounded-xl hover:bg-slate-50 transition-all flex items-center justify-center gap-2">
+> 32 |                   <span class\></span>
+     |                                 ^^^^^^
+  33 |                   Watch Demo
+  34 |                 </button>
+  35 |               </div>
+
+Unterminated regexp literal
+[10:25:06.894] Server  LOG     ✓ Compiled in 21ms
+[10:25:07.550] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true clas clas true clas
