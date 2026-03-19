@@ -7,8 +7,8 @@ export default function Navbar() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20  flex items-center justify-between">
           
           <div className="flex items-center gap-0.5 bg-green-100p-3 rounded-2xl ">
-            <img src="/logo.jpg" alt="logo"  className="h-15 bg-cover mr-2 rounded-full pr-0 mr-0"/>
-            <span className="text-2xl font-bold text-[#16A34A]">
+            <img src="/webLogo.jpg" alt="logo"  className="h-15 bg-cover mr-2 shadow-black shadow-2xl rounded-full pr-0 mr-0"/>
+            <span className="text-3xl font-bold text-[#16A34A]">
               MediMatrix
             </span>
           </div>
@@ -16,19 +16,19 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-8 text-xl font-bold">
             <Link
               className="text-green-800 transition-colors"
-              href="#"
+              href="#features"
             >
               Features
             </Link>
             <Link
               className="text-green-800 transition-colors"
-              href="#"
+              href="#how-it-works"
             >
-              How it Works
+              Help & Support
             </Link>
             <Link
               className="text-green-800 transition-colors"
-              href="#"
+              href="#help"
             >
               About
             </Link>
@@ -36,13 +36,13 @@ export default function Navbar() {
 
           <div className="flex items-center gap-4">
             <button
-              className="px-5 py-2  font-semibold bg-green-200 text-green-800 hover:bg-green-400 rounded-lg transition-all"
+              className="px-5 py-2  font-semibold bg-green-200 shadow-2xl shadow-black text-green-800 hover:bg-green-400 rounded-lg transition-all"
               data-purpose="login-button"
             >
               Login
             </button>
             <button
-              className="px-6 py-2.5  text-white-900 bg-green-800 font-semibold rounded-lg hover:bg-green-700 shadow-md hover:shadow-lg transition-all"
+              className="px-6 py-2.5  text-white-900 bg-green-800 font-semibold rounded-lg hover:bg-green-700  hover:shadow-lg transition-all shadow-2xl shadow-black"
               data-purpose="get-started-nav"
             >
               Get Started

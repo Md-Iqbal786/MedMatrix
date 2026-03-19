@@ -3,32 +3,32 @@ import Link from "next/link";
 import Navbar from "@/components/navbar";
 import path from "path";
 import Footer from "@/components/footer";
+import Sponser from "@/components/sponsered";
 
 export default function Home() {
   return (
     <div className="bg-[#F0FDF4] h-screen w-full ">
       <Navbar></Navbar>
-      {/* <main>
+      <main className="bg-black">
         <section
-          className="relative bg-white overflow-hidden"
+          className="relative bg-[#b6dfc2] overflow-hidden"
           data-purpose="hero-area"
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32 grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <h1 className="text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight">
-                Your Health,{" "}
-                <span className="text-medcare-primary">Simplified.</span>
+              <h1 className="text-5xl lg:text-6xl font-extrabold text-green-900 leading-tight">
+                Your Health, <span className="text-black">Simplified.</span>
               </h1>
-              <p className="mt-6 text-xl text-slate-600 max-w-lg">
+              <p className="mt-6 text-xl text-black max-w-lg">
                 Experience the future of healthcare management. Secure
                 appointments, manage records, and access personalized care all
                 from one powerful platform.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4">
-                <button className="px-8 py-4 bg-medcare-primary text-white text-lg font-bold rounded-xl hover:bg-blue-800 shadow-xl transition-all">
+                <button className="px-8 py-4 bg-[#0d9b02] text-white text-lg font-bold rounded-xl hover:bg-[#0b7c03] shadow-xl transition-all">
                   Book Your First Appointment
                 </button>
-                <button className="px-8 py-4 bg-white text-slate-700 border border-slate-200 text-lg font-bold rounded-xl hover:bg-slate-50 transition-all flex items-center justify-center gap-2">
+                <button className="px-8 py-4 bg-[#dcffe7] text-slate-700 border border-slate-200 text-lg font-bold rounded-xl hover:bg-slate-50 transition-all flex items-center justify-center gap-2">
                   <span className="material-icons">medical_services</span>
                   Watch Demo
                 </button>
@@ -67,105 +67,79 @@ export default function Home() {
               <img
                 alt="Medical Professional using MedCare"
                 className="relative rounded-2xl shadow-2xl border border-slate-100 object-cover w-full aspect-[4/3]"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBm0gylmXkRrL5lPKkfqrio-7ILzCXZSfuWt-CN95ZGr330Mxfj6Ju20LPnFSmdPxqgEO9LlRcG3GxhfA_RLc_rlcgQgjDSI_6zMrqMzll3NSL_-Rz_Uy9I5b-G-KrBpu4do0q_fbXRmxYlDk5SvoZ2OXi3LjsKwgah0upVssEpzVKzKPRt8oUBsXHmuNRIHdzyApyx8UVMPxNf1GyjO06UyGC28IKp4S4LCpRwaq3X5caKOoU--S2inwqf35OdbtUxNmqx8oGKcbo"
+                src="https://res.cloudinary.com/dipid77bz/image/upload/v1773897848/unnamed_lywk7c.png"
               />
             </div>
           </div>
         </section>
 
         <section
-          className="py-24 bg-slate-50"
+          className="py-24 bg-green-100"
           data-purpose="features-grid"
           id="features"
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-3xl mx-auto mb-20">
-              <h2 className="text-blue-600 font-bold uppercase tracking-widest text-sm mb-4">
+              <h2 className="text-green-700 font-bold uppercase tracking-widest text-sm mb-4">
                 Core Features
               </h2>
-              <p className="text-4xl font-bold text-slate-900">
+              <p className="text-4xl font-bold text-green-900">
                 Everything you need to manage your health journey
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-10">
               <div
-                className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100"
+                className="bg-green-200 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100"
                 data-purpose="feature-card"
               >
-                <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center text-medcare-primary mb-6">
-                  <svg
-                    className="h-8 w-8"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                    ></path>
-                  </svg>
+                <div className="w-16 h-16 bg-green-900 rounded-full flex items-center justify-center mb-4">
+                  <img
+                    src="https://res.cloudinary.com/dipid77bz/image/upload/v1773910733/appointement_upk2zv.png"
+                    className="w-full h-full object-cover rounded-full p-0.5"
+                  />
                 </div>
-                <h3 className="text-xl font-bold mb-3">Online Appointments</h3>
-                <p className="text-slate-600 leading-relaxed">
+                <h3 className="text-xl font-bold text-black mb-3">
+                  Online Appointments
+                </h3>
+                <p className="text-slate-800 leading-relaxed">
                   Skip the phone calls. Book, reschedule, or cancel your medical
                   visits in seconds with our intuitive calendar integration.
                 </p>
               </div>
 
               <div
-                className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100"
+                className="bg-green-200 p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100"
                 data-purpose="feature-card"
               >
-                <div className="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center text-emerald-600 mb-6">
-                  <svg
-                    className="h-8 w-8"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                    ></path>
-                  </svg>
+                <div className="w-16 h-16 bg-green-900 rounded-full flex items-center justify-center mb-4">
+                  <img
+                    src="https://res.cloudinary.com/dipid77bz/image/upload/v1773910730/record_v2nyjw.jpg"
+                    className="w-full h-full object-cover rounded-full p-1"
+                  />
                 </div>
-                <h3 className="text-xl font-bold mb-3">
+                <h3 className="text-xl font-bold text-black mb-3">
                   Secure Medical Records
                 </h3>
-                <p className="text-slate-600 leading-relaxed">
+                <p className="text-slate-800 leading-relaxed">
                   Your health history is encrypted and always accessible. Share
                   your records securely with specialists whenever you need.
                 </p>
               </div>
 
               <div
-                className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100"
+                className="bg-green-200 p-8 rounded-2xl shadow-xl hover:shadow-md transition-shadow border border-slate-100"
                 data-purpose="feature-card"
               >
-                <div className="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center text-purple-600 mb-6">
-                  <svg
-                    className="h-8 w-8"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                    />
-                  </svg>
+                <div className="w-16 h-16 bg-green-900 rounded-full flex items-center justify-center mb-4">
+                  <img
+                    src="https://res.cloudinary.com/dipid77bz/image/upload/v1773910728/analytics_xvm8pq.webp"
+                    className="w-full h-full object-cover rounded-full p-1"
+                  />
                 </div>
-                <h3 className="text-xl font-bold mb-3">Clinic Analytics</h3>
-                <p className="text-slate-600 leading-relaxed">
+                <h3 className="text-xl font-bold mb-3 text-black">
+                  Clinic Analytics
+                </h3>
+                <p className="text-slate-800 leading-relaxed">
                   Track your health trends over time. Monitor vitals, lab
                   results, and wellness metrics with clean, visual dashboards.
                 </p>
@@ -174,28 +148,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-16 bg-medcare-primary overflow-hidden relative">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold text-white mb-8">
-              Empowering 1,000+ Clinics Nationwide
-            </h2>
-            <div className="flex flex-wrap justify-center items-center gap-12 opacity-60">
-              <span className="text-white text-2xl font-bold italic tracking-wider">
-                HEALTHCARE+
-              </span>
-              <span className="text-white text-2xl font-bold italic tracking-wider">
-                UNITY MED
-              </span>
-              <span className="text-white text-2xl font-bold italic tracking-wider">
-                VITALITY
-              </span>
-              <span className="text-white text-2xl font-bold italic tracking-wider">
-                PULSE NETWORK
-              </span>
-            </div>
-          </div>
-        </section>
+        <Sponser></Sponser>
 
+        {/* done till here */}
+        
         <section className="py-24 bg-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div
@@ -224,9 +180,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-      </main> */}
+      </main>
       <Footer></Footer>
-      
     </div>
   );
 }

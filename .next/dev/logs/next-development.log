@@ -1,492 +1,1195 @@
-[00:00:00.994] Server  LOG     ✓ Ready in 749ms
-[00:00:04.797] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.941] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.313] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:34.968] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:19
+[00:00:01.061] Server  LOG     ✓ Ready in 787ms
+[00:00:09.170] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[00:00:09.170] Server  ERROR   Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?
+[00:00:09.170] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[00:00:09.354] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.467] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:00:09.467] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:00:09.467] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:02:22.089] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:22.191] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:02:22.191] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:02:22.191] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:34:12.307] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:12.412] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:34:12.412] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:34:12.412] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:34:13.370] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:13.473] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:34:13.473] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:34:13.473] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:34:15.953] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:16.057] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:34:16.057] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:34:16.057] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:35:10.111] Server  LOG     ✓ Compiled in 89ms
+[00:37:33.402] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:10:3
 Parsing ecmascript source code failed
-   7 |       <header>
-   8 |         <div>
->  9 |           <span >{</span>
-     |                   ^
-  10 |         </div>
-  11 |       </header>
-  12 |       <main></main>
+   8 |
+   9 |   const 
+> 10 |   return (
+     |   ^^^^^^
+  11 |     <div className="bg-[#F0FDF4] h-screen w-full ">
+  12 |       <Navbar></Navbar>
+  13 |       <main className="bg-black">
 
-Expression expected
-[00:00:34.968] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:20
+Expected ident
+[00:37:34.399] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:9
 Parsing ecmascript source code failed
-   7 |       <header>
-   8 |         <div>
->  9 |           <span >{</span>
-     |                    ^^^^^^
-  10 |         </div>
-  11 |       </header>
-  12 |       <main></main>
+   7 | export default function Home() {
+   8 |
+>  9 |   const []
+     |         ^^
+  10 |   return (
+  11 |     <div className="bg-[#F0FDF4] h-screen w-full ">
+  12 |       <Navbar></Navbar>
 
-Unterminated regexp literal
-[00:00:34.969] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:19
+'const' declarations must be initialized
+[00:37:38.399] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:9
 Parsing ecmascript source code failed
-   7 |       <header>
-   8 |         <div>
->  9 |           <span >{</span>
-     |                   ^
-  10 |         </div>
-  11 |       </header>
-  12 |       <main></main>
+   7 | export default function Home() {
+   8 |
+>  9 |   const [user , set]
+     |         ^^^^^^^^^^^^
+  10 |   return (
+  11 |     <div className="bg-[#F0FDF4] h-screen w-full ">
+  12 |       <Navbar></Navbar>
 
-Expression expected
-[00:00:34.969] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:20
+'const' declarations must be initialized
+[00:37:40.400] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:9
 Parsing ecmascript source code failed
-   7 |       <header>
-   8 |         <div>
->  9 |           <span >{</span>
-     |                    ^^^^^^
-  10 |         </div>
-  11 |       </header>
-  12 |       <main></main>
+   7 | export default function Home() {
+   8 |
+>  9 |   const [user , setUser]
+     |         ^^^^^^^^^^^^^^^^
+  10 |   return (
+  11 |     <div className="bg-[#F0FDF4] h-screen w-full ">
+  12 |       <Navbar></Navbar>
 
-Unterminated regexp literal
-[00:00:38.208] Server  ERROR   ⨯ ReferenceError: me is not defined
-[00:00:38.218] Server  ERROR   ⨯ ReferenceError: me is not defined
-[00:00:38.998] Browser ERROR   uncaughtError: ReferenceError: me is not defined
-[00:00:39.000] Browser ERROR   uncaughtError: ReferenceError: me is not defined
-[00:00:44.069] Server  ERROR   ⨯ ReferenceError: Medical is not defined
-[00:00:44.115] Server  ERROR   ⨯ ReferenceError: Medical is not defined
-[00:00:44.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:44.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:44.970] Browser ERROR   uncaughtError: ReferenceError: Medical is not defined
-[00:00:44.970] Browser ERROR   uncaughtError: ReferenceError: Medical is not defined
-[00:00:49.344] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:49.477] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:49.593] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:49.610] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:49.970] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:49.971] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:53.546] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:53.703] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:53.810] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:53.819] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:53.969] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:53.969] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:57.434] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:57.562] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:57.657] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:57.676] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:57.969] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:57.969] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:58.914] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:59.049] Server  ERROR   ⨯ Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:59.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:59.174] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:59.970] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:00:59.970] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {$$typeof, type, compare}). If you meant to render a collection of children, use an array instead.
-[00:01:53.503] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:01:53.505] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:01:53.790] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:53.805] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:05.104] Server  ERROR   ⨯ ReferenceError: MediMatrix is not defined
-[00:06:05.115] Server  ERROR   ⨯ ReferenceError: MediMatrix is not defined
-[00:06:05.972] Browser ERROR   uncaughtError: ReferenceError: MediMatrix is not defined
-[00:06:05.974] Browser ERROR   uncaughtError: ReferenceError: MediMatrix is not defined
-[00:06:06.357] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:06.359] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:16.968] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+'const' declarations must be initialized
+[00:37:43.140] Server  ERROR   ⨯ ReferenceError: useS is not defined
+[00:37:43.399] Browser ERROR   uncaughtError: ReferenceError: useS is not defined
+[00:37:46.400] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:6:10
+Ecmascript file had an error
+  4 | import path from "path";
+  5 | import Footer from "@/components/footer";
+> 6 | import { useState } from "react";
+    |          ^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |
 
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true lc lc true lc
-[00:06:16.968] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true lc lc true lc
-[00:06:19.969] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:37:48.399] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:6:10
+Ecmascript file had an error
+  4 | import path from "path";
+  5 | import Footer from "@/components/footer";
+> 6 | import { useState } from "react";
+    |          ^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |
 
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cklas cklas true cklas
-[00:06:19.969] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cklas cklas true cklas
-[00:06:24.970] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:13
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:37:52.400] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:6:10
+Ecmascript file had an error
+  4 | import path from "path";
+  5 | import Footer from "@/components/footer";
+> 6 | import { useState } from "react";
+    |          ^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:39:25.399] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:6:10
+Ecmascript file had an error
+  4 | import path from "path";
+  5 | import Footer from "@/components/footer";
+> 6 | import { useState } from "react";
+    |          ^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:39:27.400] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:6:10
+Ecmascript file had an error
+  4 | import path from "path";
+  5 | import Footer from "@/components/footer";
+> 6 | import { useState } from "react";
+    |          ^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:39:37.399] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:6:10
+Ecmascript file had an error
+  4 | import path from "path";
+  5 | import Footer from "@/components/footer";
+> 6 | import { useState } from "react";
+    |          ^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:39:38.399] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:6:10
+Ecmascript file had an error
+  4 | import path from "path";
+  5 | import Footer from "@/components/footer";
+> 6 | import { useState } from "react";
+    |          ^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:39:42.400] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:6:10
+Ecmascript file had an error
+  4 | import path from "path";
+  5 | import Footer from "@/components/footer";
+> 6 | import { useState } from "react";
+    |          ^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:39:45.399] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:6:10
+Ecmascript file had an error
+  4 | import path from "path";
+  5 | import Footer from "@/components/footer";
+> 6 | import { useState } from "react";
+    |          ^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:40:01.399] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:7:10
+Ecmascript file had an error
+   5 | import path from "path";
+   6 | import Footer from "@/components/footer";
+>  7 | import { useState } from "react";
+     |          ^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:40:05.430] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:40:05.446] Server  LOG     ✓ Compiled in 175ms
+[00:40:05.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:06.142] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:40:06.142] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:40:06.142] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:40:21.595] Server  LOG     ✓ Compiled in 20ms
+[00:40:25.220] Server  LOG     ✓ Compiled in 10ms
+[00:40:28.971] Server  LOG     ✓ Compiled in 19ms
+[00:40:39.889] Server  LOG     ✓ Compiled in 33ms
+[00:40:43.715] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:43.715] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:40:43.715] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:40:43.715] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:40:49.758] Server  LOG     ✓ Compiled in 18ms
+[00:40:54.316] Server  LOG     ✓ Compiled in 17ms
+[00:41:04.872] Server  LOG     ✓ Compiled in 45ms
+[00:41:09.578] Server  LOG     ✓ Compiled in 39ms
+[00:41:10.399] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:6:10
+Ecmascript file had an error
+  4 | import path from "path";
+  5 | import Footer from "@/components/footer";
+> 6 | import { useState } from "react";
+    |          ^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:41:13.399] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:6:10
+Ecmascript file had an error
+  4 | import path from "path";
+  5 | import Footer from "@/components/footer";
+> 6 | import { useState } from "react";
+    |          ^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:54:25.296] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:25.410] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[01:54:25.410] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[01:54:25.410] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[01:55:07.399] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:165:17
 Parsing ecmascript source code failed
-   7 |         <div>
-   8 |           <div class {
->  9 |             constructor(parameters) {
-     |             ^^^^^^^^^^^
-  10 |               
-  11 |             }
-  12 |           }>
-
-Expected '</', got 'ident'
-[00:06:24.971] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:13
-Parsing ecmascript source code failed
-   7 |         <div>
-   8 |           <div class {
->  9 |             constructor(parameters) {
-     |             ^^^^^^^^^^^
-  10 |               
-  11 |             }
-  12 |           }>
-
-Expected '</', got 'ident'
-[00:06:26.969] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:13
-Parsing ecmascript source code failed
-   7 |         <div>
-   8 |           <div className="" {
->  9 |             constructor(parameters) {
-     |             ^^^^^^^^^^^
-  10 |               
-  11 |             }
-  12 |           }>
-
-Expected '</', got 'ident'
-[00:06:26.970] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:13
-Parsing ecmascript source code failed
-   7 |         <div>
-   8 |           <div className="" {
->  9 |             constructor(parameters) {
-     |             ^^^^^^^^^^^
-  10 |               
-  11 |             }
-  12 |           }>
-
-Expected '</', got 'ident'
-[00:06:30.970] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:06:30.970] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:07:52.387] Server  LOG     ✓ Compiled in 95ms
-[09:06:29.494] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[09:09:28.552] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[09:09:28.552] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[09:09:49.301] Server  ERROR   Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?
-[09:09:49.301] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
-[09:09:49.402] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[09:09:49.510] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[09:09:49.510] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[09:24:53.550] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true border border true border
-[09:32:57.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:21:17
-Parsing ecmascript source code failed
-  19 |             >
-  20 |               Features
-> 21 |             </a>
-     |                 ^
-> 22 |             <a
-     | ^^^^^^^^^^^^^
-  23 |               className="text-slate-600  font-medium transition-colors"
-  24 |               href="#how-it-works"
-  25 |             >
+  163 |               </div>
+  164 |             </div>
+> 165 |           </div>
+      |                 ^
+> 166 |         </section>
+      | ^^^^^^^^^
+  167 |
+  168 |         <section className="py-16 bg-medcare-primary overflow-hidden relative">
+  169 |           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
 Expected '</', got 'jsx text'
-[09:33:01.550] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:22:17
+[04:08:53.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:125:25
 Parsing ecmascript source code failed
-  20 |             >
-  21 |               Features
-> 22 |             </a>
-     |                 ^
-> 23 |             <a
-     | ^^^^^^^^^^^^^
-  24 |               className="text-slate-600  font-medium transition-colors"
-  25 |               href="#how-it-works"
-  26 |             >
+  123 |                 <div className="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center text-emerald-600 mb-6">
+  124 |                   
+> 125 |                   </svg>
+      |                         ^
+> 126 |                 </div>
+      | ^^^^^^^^^^^^^^^^^
+  127 |                 <h3 className="text-xl font-bold text-black mb-3">
+  128 |                   Secure Medical Records
+  129 |                 </h3>
 
 Expected '</', got 'jsx text'
-[09:33:12.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:22:13
+[04:14:02.602] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[04:14:09.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:125:95
 Parsing ecmascript source code failed
-  20 |             >
-  21 |               Features
-> 22 |             >
-     |             ^
-  23 |             <a
-  24 |               className="text-slate-600  font-medium transition-colors"
-  25 |               href="#how-it-works"
+  123 |                 <div className="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center text-emerald-600 mb-6">
+  124 |                   
+> 125 |                   <img src="<span className="material-icons text-purple-600 text-4xl w-14 h-14">
+      |                                                                                               ^^
+  126 |                     analytics
+  127 |                   </span>" alt="" />
+  128 |                 </div>
+
+Unterminated string constant
+[04:21:52.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:128:56
+Parsing ecmascript source code failed
+  126 |     className="w-full h-full object-cover rounded-xl"
+  127 |   />
+> 128 | </div>alt="" className="w-full h-full object-contain" />
+      |                                                        ^
+  129 |                 </div>
+  130 |                 <h3 className="text-xl font-bold text-black mb-3">
+  131 |                   Secure Medical Records
 
 Unexpected token. Did you mean `{'>'}` or `&gt;`?
-[09:33:14.548] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:22:21
+[04:24:11.884] Server  LOG     ✓ Compiled in 43ms
+[04:44:27.629] Server  ERROR   ⨯ ReferenceError: Sponsers is not defined
+[04:44:28.606] Browser ERROR   uncaughtError: ReferenceError: Sponsers is not defined
+[04:44:32.119] Server  LOG     ✓ Compiled in 23ms
+[04:44:32.436] Server  ERROR   ⨯ ReferenceError: impo is not defined
+[04:44:32.647] Server  ERROR   ⨯ ReferenceError: impo is not defined
+[04:44:34.230] Server  ERROR   ⨯ Error: Failed to load external module react/jsx-runtime: Error: Cannot find module 'react/jsx-runtime'
+Require stack:
+- /Users/mdiqbal/Desktop/projects/MedMatrix/.next/dev/server/chunks/ssr/[externals]__e6a4d965._.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/.next/dev/server/chunks/ssr/[turbopack]_runtime.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/.next/dev/server/app/page.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/require.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/load-components.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/utils.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/swc/options.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/swc/index.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/config.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/next.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/lib/start-server.js
+[04:44:34.642] Browser ERROR   uncaughtError: Error: Failed to load external module react/jsx-runtime: Error: Cannot find module 'react/jsx-runtime'
+Require stack:
+- /Users/mdiqbal/Desktop/projects/MedMatrix/.next/dev/server/chunks/ssr/[externals]__e6a4d965._.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/.next/dev/server/chunks/ssr/[turbopack]_runtime.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/.next/dev/server/app/page.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/require.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/load-components.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/utils.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/swc/options.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/swc/index.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/config.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/next.js
+- /Users/mdiqbal/Desktop/projects/MedMatrix/node_modules/.pnpm/next@16.1.6_@babel+core@7.29.0_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/lib/start-server.js
+[04:44:35.836] Server  LOG     ✓ Compiled in 21ms
+[04:44:39.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:151:29
 Parsing ecmascript source code failed
-  20 |             >
-  21 |               Features
-> 22 |             /</Link>>
-     |                     ^
-  23 |             <a
-  24 |               className="text-slate-600  font-medium transition-colors"
-  25 |               href="#how-it-works"
-
-Unexpected token. Did you mean `{'>'}` or `&gt;`?
-[09:33:17.548] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:22:20
-Parsing ecmascript source code failed
-  20 |             >
-  21 |               Features
-> 22 |             </Link>>
-     |                    ^
-  23 |             <a
-  24 |               className="text-slate-600  font-medium transition-colors"
-  25 |               href="#how-it-works"
-
-Unexpected token. Did you mean `{'>'}` or `&gt;`?
-[09:33:19.699] Server  LOG     ✓ Compiled in 254ms
-[09:33:23.301] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[09:34:29.550] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:28:17
-Parsing ecmascript source code failed
-  26 |             >
-  27 |               How it Works
-> 28 |             </a>
-     |                 ^
-> 29 |             <a
-     | ^^^^^^^^^^^^^
-  30 |               className="text-slate-600  font-medium transition-colors"
-  31 |               href="#about"
-  32 |             >
+  149 |         </section>
+  150 |
+> 151 |         <Sponser></Sponsers>
+      |                             ^
+> 152 |
+      | ^
+> 153 |         <section className="py-24 bg-white">
+      | ^^^^^^^^^
+  154 |           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+  155 |             <div
+  156 |               className="bg-blue-50 rounded-3xl p-12 text-center border border-blue-100"
 
 Expected '</', got 'jsx text'
-[09:34:31.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:28:17
+[04:44:40.190] Server  LOG     ✓ Compiled in 62ms
+[04:44:40.595] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:44:53.582] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:50:27.756] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:50:33.672] Server  LOG     ✓ Compiled in 32ms
+[05:03:55.605] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:97:13
 Parsing ecmascript source code failed
-  26 |             >
-  27 |               How it Works
-> 28 |             </a>
-     |                 ^
-> 29 |             <a
-     | ^^^^^^^^^^^^^
-  30 |               className="text-slate-600  font-medium transition-colors"
-  31 |               href="#about"
-  32 |             >
-
-Expected '</', got 'jsx text'
-[09:34:40.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:34:17
-Parsing ecmascript source code failed
-  32 |             >
-  33 |               About
-> 34 |             </a>
-     |                 ^
-> 35 |           </div>
-     | ^^^^^^^^^^^
-  36 |
-  37 |           <div className="flex items-center gap-4">
-  38 |             <button
-
-Expected '</', got 'jsx text'
-[09:38:37.149] Server  LOG     ✓ Compiled in 22ms
-[09:39:05.307] Server  LOG     ✓ Compiled in 35ms
-[09:44:46.549] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true gre gre true gre
-[09:56:43.346] Server  LOG     ✓ Compiled in 24ms
-[09:58:44.550] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
-[10:05:01.475] Server  LOG     ✓ Compiled in 24ms
-[10:08:03.550] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:14:20
-Parsing ecmascript source code failed
-  12 |             <img src="/logo.jpg" alt="logo"  className="h-15 bg-cover mr-2 rounded-full pr-0 mr-0"/>
-  13 |               MediMatrix
-> 14 |             </span>
-     |                    ^
-> 15 |           </div>
-     | ^^^^^^^^^^^
-  16 |
-  17 |           <div className="hidden md:flex items-center gap-8 text-xl font-bold">
-  18 |             <Link
-
-Expected '</', got 'jsx text'
-[10:11:34.904] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:11:56.551] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:5:1
-Parsing ecmascript source code failed
-  3 | import
-  4 |
-> 5 | export default function Home() {
-    | ^^^^^^
-  6 |   return (
-  7 |     <div className="bg-[#F0FDF4] h-screen w-full ">
-  8 |       
-
-Expected 'from', got 'export'
-[10:11:57.548] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:5:1
-Parsing ecmascript source code failed
-  3 | import 
-  4 |
-> 5 | export default function Home() {
-    | ^^^^^^
-  6 |   return (
-  7 |     <div className="bg-[#F0FDF4] h-screen w-full ">
-  8 |       
-
-Expected 'from', got 'export'
-[10:12:09.551] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:13
-Parsing ecmascript source code failed
-   7 |     <div className="bg-[#F0FDF4] h-screen w-full ">
-   8 |       <na
->  9 |       <main></main>
-     |             ^
-  10 |     </div>
-  11 |   );
-  12 | }
+   95 |           {Sponsers.map((sponser, idx) => (
+   96 |             <im
+>  97 |             <span
+      |             ^
+   98 |               key={idx}
+   99 |               className="text-white text-2xl font-bold italic tracking-wider"
+  100 |             >
 
 Expression expected
-[10:12:09.552] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:14
-Parsing ecmascript source code failed
-   7 |     <div className="bg-[#F0FDF4] h-screen w-full ">
-   8 |       <na
->  9 |       <main></main>
-     |              ^^^^^^
-  10 |     </div>
-  11 |   );
-  12 | }
 
-Unterminated regexp literal
-[10:12:14.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:13
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:03:57.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:97:13
 Parsing ecmascript source code failed
-   7 |     <div className="bg-[#F0FDF4] h-screen w-full ">
-   8 |       <Navbar
->  9 |       <main></main>
-     |             ^
-  10 |     </div>
-  11 |   );
-  12 | }
+   95 |           {Sponsers.map((sponser, idx) => (
+   96 |             <img
+>  97 |             <span
+      |             ^
+   98 |               key={idx}
+   99 |               className="text-white text-2xl font-bold italic tracking-wider"
+  100 |             >
 
 Expression expected
-[10:12:14.550] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:9:14
-Parsing ecmascript source code failed
-   7 |     <div className="bg-[#F0FDF4] h-screen w-full ">
-   8 |       <Navbar
->  9 |       <main></main>
-     |              ^^^^^^
-  10 |     </div>
-  11 |   );
-  12 | }
 
-Unterminated regexp literal
-[10:12:15.232] Server  LOG     ✓ Compiled in 165ms
-[10:12:19.335] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:14:02.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[10:14:02.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[10:14:02.550] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[10:16:51.198] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
-[10:16:51.300] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:16:51.300] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[10:16:51.300] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[10:16:51.300] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[10:16:53.905] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:16:53.905] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[10:16:53.905] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[10:16:53.905] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[10:17:26.100] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:17:26.100] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[10:17:26.100] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[10:17:26.100] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[10:17:28.165] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:17:28.165] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[10:17:28.165] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[10:17:28.165] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[10:17:29.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:17:30.036] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[10:17:30.036] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[10:17:30.036] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[10:17:56.388] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:18:37.589] Server  ERROR   ⨯ ReferenceError: MediMatrix is not defined
-[10:18:38.548] Browser ERROR   uncaughtError: ReferenceError: MediMatrix is not defined
-[10:18:38.717] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:20:43.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:12:5
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:04.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:97:13
 Parsing ecmascript source code failed
-  10 |       <main></main>
-  11 |       <footer
-> 12 |     </div>
-     |     ^
-  13 |   );
-  14 | }
-  15 |
+   95 |           {Sponsers.map((sponser, idx) => (
+   96 |             <img
+>  97 |             <span
+      |             ^
+   98 |               key={idx}
+   99 |               className="text-white text-2xl font-bold italic tracking-wider"
+  100 |             >
 
 Expression expected
-[10:20:43.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:12:6
-Parsing ecmascript source code failed
-  10 |       <main></main>
-  11 |       <footer
-> 12 |     </div>
-     |      ^^^^^
-  13 |   );
-  14 | }
-  15 |
 
-Unterminated regexp literal
-[10:20:44.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:12:5
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:06.605] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:15
 Parsing ecmascript source code failed
-  10 |       <main></main>
-  11 |       <footer
-> 12 |     </div>
-     |     ^
-  13 |   );
-  14 | }
-  15 |
+   96 |             <img></img>
+   97 |             <span
+>  98 |               key={idx}
+      |               ^^^
+   99 |               className="text-white text-2xl font-bold italic tracking-wider"
+  100 |             >
+  101 |               {sponser.name}
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:13.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:15
+Parsing ecmascript source code failed
+   96 |             <img/>
+   97 |             <span
+>  98 |               key={idx}
+      |               ^^^
+   99 |               className="text-white text-2xl font-bold italic tracking-wider"
+  100 |             >
+  101 |               {sponser.name}
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:16.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:15
+Parsing ecmascript source code failed
+   96 |             <img />
+   97 |             <span
+>  98 |               key={idx}
+      |               ^^^
+   99 |               className="text-white text-2xl font-bold italic tracking-wider"
+  100 |             >
+  101 |               {sponser.name}
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:34.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:101:15
+Parsing ecmascript source code failed
+   99 |                   />
+  100 |             <span
+> 101 |               key={idx}
+      |               ^^^
+  102 |               className="text-white text-2xl font-bold italic tracking-wider"
+  103 |             >
+  104 |               {sponser.name}
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:41.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:102:15
+Parsing ecmascript source code failed
+  100 |                   />
+  101 |             <span
+> 102 |               key={idx}
+      |               ^^^
+  103 |               className="text-white text-2xl font-bold italic tracking-wider"
+  104 |             >
+  105 |               {sponser.name}
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:45.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:97:13
+Parsing ecmascript source code failed
+   95 |           {Sponsers.map((sponser, idx) => (
+   96 |             <div
+>  97 |             <img
+      |             ^
+   98 |                     src="https://res.cloudinary.com/dipid77bz/image/upload/v1773910733/appointement_upk2zv.png"
+   99 |                     className="w-full h-full object-cover rounded-full p-0.5"
+  100 |                   />
 
 Expression expected
-[10:20:44.549] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:12:6
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:46.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:107:13
 Parsing ecmascript source code failed
-  10 |       <main></main>
-  11 |       <footer
-> 12 |     </div>
-     |      ^^^^^
-  13 |   );
-  14 | }
-  15 |
+  105 |               {sponser.name}
+  106 |             </span>
+> 107 |           ))}
+      |             ^
+  108 |         </div>
+  109 |       </div>
+  110 |     </section>
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:46.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:109:8
+Parsing ecmascript source code failed
+  107 |           ))}
+  108 |         </div>
+> 109 |       </div>
+      |        ^^^^^
+  110 |     </section>
+  111 |   );
+  112 | }
 
 Unterminated regexp literal
-[10:20:52.551] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:7:1
-Parsing ecmascript source code failed
-   5 | import 
-   6 |
->  7 | export default function Home() {
-     | ^^^^^^
-   8 |   return (
-   9 |     <div className="bg-[#F0FDF4] h-screen w-full ">
-  10 |       <Navbar></Navbar>
 
-Expected 'from', got 'export'
-[10:22:05.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[10:22:05.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[10:22:05.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[10:22:05.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[10:22:05.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[10:22:50.455] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
-[10:22:50.455] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
-[10:22:50.616] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:22:50.721] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[10:22:50.721] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[10:22:50.721] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[10:22:50.721] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[10:22:50.721] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[10:23:29.558] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[10:23:29.666] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[10:23:29.666] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[10:23:29.666] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[10:23:29.666] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
-[10:23:29.666] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[10:25:03.553] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[10:25:05.548] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:32:30
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:49.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:108:13
 Parsing ecmascript source code failed
-  30 |                 </button>
-  31 |                 <button className="px-8 py-4 bg-white text-slate-700 border border-slate-200 text-lg font-bold rounded-xl hover:bg-slate-50 transition-all flex items-center justify-center gap-2">
-> 32 |                   <span class\></span>
-     |                              ^
-  33 |                   Watch Demo
-  34 |                 </button>
-  35 |               </div>
+  106 |             </span>
+  107 |             
+> 108 |           ))}
+      |             ^
+  109 |         </div>
+  110 |       </div>
+  111 |     </section>
 
-Expected unicode escape
-[10:25:05.548] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:32:32
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:49.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:110:8
 Parsing ecmascript source code failed
-  30 |                 </button>
-  31 |                 <button className="px-8 py-4 bg-white text-slate-700 border border-slate-200 text-lg font-bold rounded-xl hover:bg-slate-50 transition-all flex items-center justify-center gap-2">
-> 32 |                   <span class\></span>
-     |                                ^
-  33 |                   Watch Demo
-  34 |                 </button>
-  35 |               </div>
+  108 |           ))}
+  109 |         </div>
+> 110 |       </div>
+      |        ^^^^^
+  111 |     </section>
+  112 |   );
+  113 | }
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:52.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:108:11
+Parsing ecmascript source code failed
+  106 |             </span>
+  107 |             <div
+> 108 |           ))}
+      |           ^
+  109 |         </div>
+  110 |       </div>
+  111 |     </section>
+
+Expected '</', got ')'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:54.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:108:13
+Parsing ecmascript source code failed
+  106 |             </span>
+  107 |             <div/>
+> 108 |           ))}
+      |             ^
+  109 |         </div>
+  110 |       </div>
+  111 |     </section>
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:54.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:110:8
+Parsing ecmascript source code failed
+  108 |           ))}
+  109 |         </div>
+> 110 |       </div>
+      |        ^^^^^
+  111 |     </section>
+  112 |   );
+  113 | }
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:57.602] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:108:13
+Parsing ecmascript source code failed
+  106 |             </span>
+  107 |             <div>
+> 108 |           ))}
+      |             ^
+  109 |         </div>
+  110 |       </div>
+  111 |     </section>
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:57.602] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:111:6
+Parsing ecmascript source code failed
+  109 |         </div>
+  110 |       </div>
+> 111 |     </section>
+      |      ^^^^^^^^^
+  112 |   );
+  113 | }
+  114 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:04:58.605] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <div>. 
+[05:05:32.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:99:17
+Parsing ecmascript source code failed
+   97 |               <img
+   98 |                 src=
+>  99 |                 className="w-full h-full object-cover rounded-full p-0.5"
+      |                 ^^^^^^^^^
+  100 |               />
+  101 |               <span
+  102 |                 key={idx}
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:05:32.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:99:17
+Parsing ecmascript source code failed
+   97 |               <img
+   98 |                 src={}
+>  99 |                 className="w-full h-full object-cover rounded-full p-0.5"
+      |                 ^^^^^^^^^
+  100 |               />
+  101 |               <span
+  102 |                 key={idx}
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:19:45.987] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <div>. See https://react.dev/link/warning-keys for more information.
+[05:19:46.129] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:19:46.246] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <div>. 
+[05:20:21.608] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the top-level render call using <div>. See https://react.dev/link/warning-keys for more information.
+[05:20:21.710] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:20:21.814] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <div>. 
+[05:20:37.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:21
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |                 src=`{sponser.logo}
+      |                     ^^^^^^^^^^^^^^^
+>  99 |                 className="w-full h-full object-cover rounded-full p-0.5"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 100 |               />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 101 |               <span
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 102 |                 key={idx}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |                 className="text-white text-2xl font-bold italic tracking-wider"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 104 |               >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 105 |                 {sponser.name}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 106 |               </span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 107 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 108 |           ))}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 109 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 110 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 111 |     </section>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 112 |   );
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 113 | }
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 114 | 
+      | ^
+
+Unterminated template
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:20:41.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:21
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |                 src=`{sponser.logo}``
+      |                     ^^^^^^^^^^^^^^^^
+   99 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  100 |               />
+  101 |               <span
+
+Expected '</', got 'no substitution template literal'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:20:43.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:21
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |                 src=`{sponser.logo}
+      |                     ^^^^^^^^^^^^^^^
+>  99 |                 className="w-full h-full object-cover rounded-full p-0.5"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 100 |               />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 101 |               <span
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 102 |                 key={idx}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |                 className="text-white text-2xl font-bold italic tracking-wider"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 104 |               >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 105 |                 {sponser.name}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 106 |               </span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 107 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 108 |           ))}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 109 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 110 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 111 |     </section>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 112 |   );
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 113 | }
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 114 | 
+      | ^
+
+Unterminated template
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:20:45.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:21
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |                 src=`{sponser.logo}`    `
+      |                     ^^^^^^^^^^^^^^^^
+   99 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  100 |               />
+  101 |               <span
+
+Expected '</', got 'no substitution template literal'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:20:47.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:21
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |                 src=`{sponser.logo}`
+      |                     ^^^^^^^^^^^^^^^^
+   99 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  100 |               />
+  101 |               <span
+
+Expected '</', got 'no substitution template literal'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:20:52.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:21
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |                 src=`${sponser.logo}`
+      |                     ^^^
+   99 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  100 |               />
+  101 |               <span
+
+Expected '</', got 'template head'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:20:56.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:21
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |                 src=${sponser.logo}`
+      |                     ^
+   99 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  100 |               />
+  101 |               <span
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:20:58.602] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:35
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |                 src={sponser.logo}`
+      |                                   ^
+>  99 |                 className="w-full h-full object-cover rounded-full p-0.5"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 100 |               />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 101 |               <span
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 102 |                 key={idx}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |                 className="text-white text-2xl font-bold italic tracking-wider"
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 104 |               >
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 105 |                 {sponser.name}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 106 |               </span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 107 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 108 |           ))}
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 109 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 110 |       </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 111 |     </section>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 112 |   );
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 113 | }
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 114 | 
+      | ^
+
+Unterminated template
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:23:03.607] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:16
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |               {}
+      |                ^
+   99 |                 src={sponser.logo}
+  100 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  101 |               />
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:23:07.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:16
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |               {console.log}
+      |                ^^^^^^^
+   99 |                 src={sponser.logo}
+  100 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  101 |               />
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:23:08.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:16
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |               {console.log()}
+      |                ^^^^^^^
+   99 |                 src={sponser.logo}
+  100 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  101 |               />
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:23:09.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:16
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |               {console.log({})}
+      |                ^^^^^^^
+   99 |                 src={sponser.logo}
+  100 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  101 |               />
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:23:13.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:16
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |               {console.log({sponser.log})}
+      |                ^^^^^^^
+   99 |                 src={sponser.logo}
+  100 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  101 |               />
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:23:16.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:16
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |               {console.log({sponser.logo})}
+      |                ^^^^^^^
+   99 |                 src={sponser.logo}
+  100 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  101 |               />
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:23:17.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:16
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |               {console.log({sponser.logo})}
+      |                ^^^^^^^
+   99 |                 src={sponser.logo}
+  100 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  101 |               />
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:23:22.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:16
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |               {console.log(`{sponser.logo}`)}
+      |                ^^^^^^^
+   99 |                 src={sponser.logo}
+  100 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  101 |               />
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:23:25.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:16
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |               {console.log(`${sponser.logo}`)}
+      |                ^^^^^^^
+   99 |                 src={sponser.logo}
+  100 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  101 |               />
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:23:28.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:98:16
+Parsing ecmascript source code failed
+   96 |             <div>
+   97 |               <img
+>  98 |               {console.log(`${sponser.logo}`);}
+      |                ^^^^^^^
+   99 |                 src={sponser.logo}
+  100 |                 className="w-full h-full object-cover rounded-full p-0.5"
+  101 |               />
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:23:36.602] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:97:48
+Parsing ecmascript source code failed
+   95 |           {Sponsers.map((sponser, idx) => (
+   96 |             <div>
+>  97 |                 {console.log(`${sponser.logo}`);}
+      |                                                ^
+   98 |               <img
+   99 |                 src={sponser.logo}
+  100 |                 className="w-full h-full object-cover rounded-full p-0.5"
+
+Expected '</', got ';'
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:23:41.956] Server  LOG     https://res.cloudinary.com/dipid77bz/image/upload/v1773914959/s1_bwqbbr.png
+[05:23:41.956] Server  LOG     https://res.cloudinary.com/dipid77bz/image/upload/v1773914959/s1_bwqbbr.png
+[05:23:41.956] Server  LOG     https://res.cloudinary.com/dipid77bz/image/upload/v1773914959/s1_bwqbbr.png
+[05:23:41.956] Server  LOG     https://res.cloudinary.com/dipid77bz/image/upload/v1773914959/s1_bwqbbr.png
+[05:23:41.956] Server  LOG     https://res.cloudinary.com/dipid77bz/image/upload/v1773914959/s1_bwqbbr.png
+[05:23:41.956] Server  LOG     https://res.cloudinary.com/dipid77bz/image/upload/v1773914959/s1_bwqbbr.png
+[05:23:41.956] Server  LOG     https://res.cloudinary.com/dipid77bz/image/upload/v1773914959/s1_bwqbbr.png
+[05:23:41.956] Server  LOG     https://res.cloudinary.com/dipid77bz/image/upload/v1773914959/s1_bwqbbr.png
+[05:23:41.957] Server  LOG     https://res.cloudinary.com/dipid77bz/image/upload/v1773914959/s1_bwqbbr.png
+[05:23:41.957] Server  LOG     https://res.cloudinary.com/dipid77bz/image/upload/v1773914959/s1_bwqbbr.png
+[05:23:41.957] Server  LOG     https://res.cloudinary.com/dipid77bz/image/upload/v1773914959/s1_bwqbbr.png
+[05:23:41.957] Server  LOG     https://res.cloudinary.com/dipid77bz/image/upload/v1773914959/s1_bwqbbr.png
+[05:26:10.258] Server  LOG     ✓ Compiled in 30ms
+[05:27:08.355] Server  ERROR   ⨯ ReferenceError: Sponsers is not defined
+[05:27:08.603] Browser ERROR   uncaughtError: ReferenceError: Sponsers is not defined
+[05:27:12.520] Server  LOG     ✓ Compiled in 18ms
+[05:27:12.585] Server  ERROR   ⨯ ReferenceError: Sponsers is not defined
+[05:27:12.916] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:27:13.606] Browser ERROR   uncaughtError: ReferenceError: Sponsers is not defined
+[05:27:30.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:90:3
+Parsing ecmascript source code failed
+  88 |
+  89 |   const 
+> 90 |   return (
+     |   ^^^^^^
+  91 |     <section className="py-16 bg-black overflow-hidden relative">
+  92 |       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  93 |         <h2 className="text-3xl font-bold text-green-500 mb-8">
+
+Expected ident
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:27:34.607] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:89:9
+Parsing ecmascript source code failed
+  87 |   ];
+  88 |
+> 89 |   const Sponser
+     |         ^^^^^^^
+  90 |   return (
+  91 |     <section className="py-16 bg-black overflow-hidden relative">
+  92 |       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+'const' declarations must be initialized
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:27:37.709] Server  LOG     ✓ Compiled in 31ms
+[05:27:39.672] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:27:40.615] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:89:24
+Parsing ecmascript source code failed
+  87 |   ];
+  88 |
+> 89 |   const Sponsers = [...]
+     |                        ^
+  90 |   return (
+  91 |     <section className="py-16 bg-black overflow-hidden relative">
+  92 |       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
 Expression expected
-[10:25:05.548] Browser ERROR   ./Desktop/projects/MedMatrix/src/app/page.tsx:32:33
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:27:48.614] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <div>. 
+[05:27:53.603] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:89:41
 Parsing ecmascript source code failed
-  30 |                 </button>
-  31 |                 <button className="px-8 py-4 bg-white text-slate-700 border border-slate-200 text-lg font-bold rounded-xl hover:bg-slate-50 transition-all flex items-center justify-center gap-2">
-> 32 |                   <span class\></span>
-     |                                 ^^^^^^
-  33 |                   Watch Demo
-  34 |                 </button>
-  35 |               </div>
+  87 |   ];
+  88 |
+> 89 |   const Sponsers = [...Data , ...Data , ..dta]
+     |                                         ^
+  90 |   return (
+  91 |     <section className="py-16 bg-black overflow-hidden relative">
+  92 |       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
-Unterminated regexp literal
-[10:25:06.894] Server  LOG     ✓ Compiled in 21ms
-[10:25:07.550] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+Expression expected
 
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true clas clas true clas
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:27:55.604] Browser ERROR   ./Desktop/projects/MedMatrix/src/components/sponsered.tsx:89:41
+Parsing ecmascript source code failed
+  87 |   ];
+  88 |
+> 89 |   const Sponsers = [...Data , ...Data , ..Data]
+     |                                         ^
+  90 |   return (
+  91 |     <section className="py-16 bg-black overflow-hidden relative">
+  92 |       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Desktop/projects/MedMatrix/src/components/sponsered.tsx
+    ./Desktop/projects/MedMatrix/src/app/page.tsx
+[05:27:57.475] Server  LOG     ✓ Compiled in 36ms
+[05:30:38.724] Server  LOG     ✓ Compiled in 658ms
+[05:38:07.522] Server  ERROR   ⨯ TypeError: Sponser.map is not a function
+[05:38:08.605] Browser ERROR   uncaughtError: TypeError: Sponser.map is not a function
+[05:38:11.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:39:18.244] Server  ERROR   ⨯ ReferenceError: da is not defined
+[05:39:18.604] Browser ERROR   uncaughtError: ReferenceError: da is not defined
+[05:39:20.715] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:40:10.090] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:40:12.432] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
